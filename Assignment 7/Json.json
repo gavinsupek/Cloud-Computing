@@ -1,0 +1,74 @@
+{
+    "actors": [
+      {
+        "name": "Tom Hanks",
+        "age": 65,
+        "nationality": "American",
+        "movies": ["Forrest Gump", "Cast Away", "Saving Private Ryan"]
+      },
+      {
+        "name": "Meryl Streep",
+        "age": 72,
+        "nationality": "American",
+        "movies": ["The Devil Wears Prada", "Sophie's Choice", "The Iron Lady"]
+      },
+      {
+        "name": "Leonardo DiCaprio",
+        "age": 47,
+        "nationality": "American",
+        "movies": ["Titanic", "The Revenant", "The Wolf of Wall Street"]
+      },
+      {
+        "name": "Cate Blanchett",
+        "age": 52,
+        "nationality": "Australian",
+        "movies": ["Blue Jasmine", "Elizabeth", "Carol"]
+      },
+      {
+        "name": "Denzel Washington",
+        "age": 67,
+        "nationality": "American",
+        "movies": ["Training Day", "Malcolm X", "Glory"]
+      }
+    ]
+  }
+  {
+    "courses": [
+      {
+        "courseName": "Introduction to Computer Science",
+        "courseNumber": "CS101",
+        "instructor": "John Smith",
+        "time": "9:00 AM - 10:30 AM",
+        "room": "Building A, Room 101"
+      },
+      {
+        "courseName": "Data Structures and Algorithms",
+        "courseNumber": "CS201",
+        "instructor": "Jane Doe",
+        "time": "1:00 PM - 2:30 PM",
+        "room": "Building B, Room 202"
+      },
+      {
+        "courseName": "Web Development",
+        "courseNumber": "CS301",
+        "instructor": "Mike Johnson",
+        "time": "10:00 AM - 11:30 AM",
+        "room": "Building C, Room 303"
+      },
+      {
+        "courseName": "Database Management",
+        "courseNumber": "CS401",
+        "instructor": "Emily Brown",
+        "time": "3:00 PM - 4:30 PM",
+        "room": "Building D, Room 404"
+      },
+      {
+        "courseName": "Artificial Intelligence",
+        "courseNumber": "CS501",
+        "instructor": "David Lee",
+        "time": "2:00 PM - 3:30 PM",
+        "room": "Building E, Room 505"
+      }
+    ]
+  }
+  
