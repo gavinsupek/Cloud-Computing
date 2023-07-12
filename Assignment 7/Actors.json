@@ -1,0 +1,34 @@
+{
+"actors": [
+    {"name": "Tom Cruise",
+    "age": 61,
+    "country": "American",
+    "movies": ["Top Gun", "Misson Impossible", "Jerry Maguire"]
+  },
+
+  {"name": "Leonardo DiCaprio",
+    "age": 47,
+    "country": "American",
+    "movies": ["Titanic", "The Revenant", "The Wolf of Wall Street"]
+  },
+
+  {"name": "Harrison Ford",
+    "age": 80,
+    "country": "American",
+    "movies": ["Star Wars", "Indiana Jones", "Blade Runner"]
+  },
+
+  {"name": "Denzel Washington",
+    "age": 67,
+    "country": "American",
+    "movies": ["Training Day", "Malcolm X ", "Glory"]
+  },
+
+  {"name": "Michael B. Jordan ",
+    "age": 36,
+    "country": "American",
+    "movies": ["Black Panther", "Creed", "Fruitvale Station"]
+  }
+
+]
+}
