@@ -1,80 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gavin's Webpage</title>
+  <title style="text-align: center; color: blue; font-family: Arial; font-size: 24px;">My Webpage</title>
   <style>
-    h1 {
-      text-align: center;
-      color: #FF0000; /* Red color */
-      font-family: Arial, sans-serif;
-      font-size: 28px;
-    }
-
     ul {
       list-style-type: none;
-      padding: 0;
-    }
-
-    ul li {
-      display: inline-block;
-      margin-right: 10px;
     }
 
     ul li:hover {
-      color: #0000FF; 
-    }
-
-    form {
-      margin-top: 20px;
-    }
-
-    input[type="text"] {
-      padding: 5px;
+      color: red;
     }
 
     input[type="submit"] {
+      background-color: green;
+      color: white;
       padding: 5px 10px;
-      background-color: #008000; 
-      color: #FFFFFF; 
+      border-radius: 3px;
       border: none;
+      cursor: pointer;
     }
 
     table {
       width: 100%;
-      border-collapse: collapse;
     }
 
-    th, td {
-      padding: 8px;
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    table th {
+      text-align: center;
+      font-weight: bold;
+      height: 50px;
+    }
+
+    table td {
       text-align: center;
     }
 
-    th {
-      font-weight: bold;
-    }
-
-    tr:nth-child(even) {
-      background-color: #F2F2F2; 
-    }
-
-    tr:nth-child(odd) {
-      background-color: #FFFFFF; 
-    }
-
     img {
-      max-width: 400px;
-      max-height: 400px;
       border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>This is my Webpage</h1>
+  <h1>Title of the Webpage</h1>
 
   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
+    <li>Menu Option 1</li>
+    <li>Menu Option 2</li>
+    <li>Menu Option 3</li>
   </ul>
 
   <form>
@@ -85,26 +60,30 @@
   <table>
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Email</th>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+        <th>Heading 3</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>John Doe</td>
-        <td>johndoe@example.com</td>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+        <td>Row 1, Cell 3</td>
       </tr>
       <tr>
-        <td>Jane Smith</td>
-        <td>janesmith@example.com</td>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+        <td>Row 2, Cell 3</td>
       </tr>
       <tr>
-        <td>Robert Johnson</td>
-        <td>robertjohnson@example.com</td>
+        <td>Row 3, Cell 1</td>
+        <td>Row 3, Cell 2</td>
+        <td>Row 3, Cell 3</td>
       </tr>
     </tbody>
   </table>
 
-  <img src="image.jpg" alt="Sample Image">
+  <img src="image.jpg" alt="Sample Image" width="400" height="400">
 </body>
 </html>
