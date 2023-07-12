@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actors Info</title>
+    <style>
+table{
+
+width:  100%;
+}
+
+th, td {
+border: 1px solid pink;
+padding: 10px;
+text-align: left;
+}
+th{
+background-color: white;
+}
+    </style>
+</head>
+<body>
+<h2>Actor Info</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Top Movies</th>
+        </tr>
+    </thead>
+<tbody>
+
+</tbody>
+</table>
+
+<script>
+var actors = [
+    {
+        "name": "Tom Cruise",
+        "age": 61,
+        "country": "American",
+        "movies": ["Top Gun", "Mission Impossible", "Jerry Maguire"]
+      },
+      {
+        "name": "Leonardo DiCaprio",
+        "age": 47,
+        "country": "American",
+        "movies": ["Titanic", "The Revenant", "The Wolf of Wall Street"]
+      },
+      {
+        "name": "Harrison Ford",
+        "age": 80,
+        "country": "American",
+        "movies": ["Star Wars", "Indiana Jones", "Blade Runner"]
+      },
+      {
+        "name": "Denzel Washington",
+        "age": 67,
+        "country": "American",
+        "movies": ["Training Day", "Malcolm X", "Glory"]
+      },
+      {
+        "name": "Michael B. Jordan",
+        "age": 36,
+        "country": "American",
+        "movies": ["Black Panther", "Creed", "Fruitvale Station"]
+      }
+    ];
+
+
+var tableBody = document.querySelector("tbody");
+for (var i = 0; i < actors.length; i++) {
+var actor = actors[i];
+var row = document.createElement("tr");
+row.innerHTML = "<td>" + actor.name + "</td>" + "<td>" + actor.age + "</td>" + "<td>" + actor.country + "</td>" + "<td>" + actor.movies.join(", ")  + "</td>";
+tableBody.appendChild(row);
+}
+</script>
+</body>
+</html>
