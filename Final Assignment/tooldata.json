@@ -1,0 +1,30 @@
+[
+{
+"tool_name": "Hammer",
+"price": 15.99,
+"quantity": 7,
+"thumbnailUrl": "hammer.jpg",
+"description": "A tool used to hammer nails into different woods or surfaces and to make it easier to do the job"
+},
+{
+    "tool_name": "Pliers",
+    "price": 17.99,
+    "quantity": 3,
+    "thumbnailUrl": "pliers.jpg",
+    "description": "A tool used to grip, break different objects the job or cut different things such as wire or tape."
+    },
+    {
+    "tool_name": "Screwdriver",
+    "price": 7.99,
+    "quantity": 4,
+    "thumbnailUrl": "screwdriver.jph",
+    "description": "A tool used to tighten screws or loosen them. "
+    },
+    {
+    "tool_name": "Wrench",
+"price": 11.99,
+"quantity": 9,
+"thumbnailUrl": "wrench.jpg",
+"description": "A tool used to get better gripping on objects to turn them."
+}
+]
